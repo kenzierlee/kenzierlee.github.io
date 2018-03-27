@@ -13,38 +13,44 @@
 </head>
 
 <body>
-    <nav class="navbar sticky-top navbar-light bg-light">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item name">
-                <a class="nav-link">Mackenzie Lee</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-            </li>
-        </ul>
-    </nav>
-    <header class="main-header d-flex">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">MACKENZIE LEE</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="main-header text-center text-white d-flex">
+        <div class="container my-auto">
             <div class="row">
                 <div class="col-lg-10 mx-auto">
-                    <strong>
-                        <h1>Software Developer</h1>
-                    </strong>
+                    <h1 class="text-uppercase">
+                        <strong>Software Developer</strong>
+                    </h1>
                     <p>Whether you want to uncover the secrets of the universe, or you want to pursue a career in the 21st century,
                         basic computer programming is an essential skill to learn. - Stephen Hawking</p>
                     <hr>
                 </div>
                 <div class="col-lg-8 mx-auto">
-                    <button class="btn btn-secondary" href="#about">Learn More</button>
+                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Learn More</a>
                 </div>
             </div>
         </div>
@@ -53,7 +59,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2>About Me</h2>
+                    <h2 class="section-head">About Me</h2>
                     <hr>
                     <p>Born and raised in Boise, where I have started my Career in Software Development.
                         <br>I started with several online courses. Some teaching the basics of HTML and CSS, others included
@@ -69,19 +75,71 @@
     <section id="skills">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>Skills & Projects</h2>
+                <div class="col-lg-12">
+                    <h2 class="section-head">My Languages & Projects</h2>
                     <hr>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
                     <div class="col">
                         <div class="service-box mt-5 mx-auto">
-                            <img class="my-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2000px-HTML5_logo_and_wordmark.svg.png"
-                                alt="HTML Logo">
+                            <img class="my-logo" src="assets/imgs/html-5.png" alt="HTML Logo">
                         </div>
                     </div>
                     <div class="col">
                         <div class="service-box mt-5 mx-auto">
-                            <img class="my-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2000px-HTML5_logo_and_wordmark.svg.png"
-                                alt="HTML Logo">
+                            <img class="my-logo" src="assets/imgs/js-logo.png" alt="JavaScript Logo">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="service-box mt-5 mx-auto">
+                            <img class="my-logo" src="assets/imgs/CS2-3.png" alt="CSS Logo">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="service-box mt-5 mx-auto">
+                            <img class="my-logo" src="assets/imgs/vue.png" alt="Vue.js Logo">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="service-box mt-5 mx-auto">
+                            <img class="my-logo" src="assets/imgs/sass.png" alt="Sass Logo">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="service-box mt-5 mx-auto">
+                            <img class="my-logo" src="assets/imgs/mongodb.png" alt="MongoDB Logo">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="service-box mt-5 mx-auto">
+                            <img class="my-logo" src="assets/imgs/nodejs.png" alt="Node.js Logo">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="service-box mt-5 mx-auto">
+                            <img class="my-logo" src="assets/imgs/mongodb.png" alt="MongoDB Logo">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="service-box mt-5 mx-auto">
+                            <img class="my-logo" src="assets/imgs/MySQL-Logo.png" alt="My SQL Logo">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="service-box mt-5 mx-auto">
+                            <img class="my-logo" src="assets/imgs/mocha.png" alt="Mocha Logo">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="service-box mt-5 mx-auto">
+                            <img class="my-logo" src="assets/imgs/chai-logo.png" alt="Chai Logo">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="service-box mt-5 mx-auto">
+                            <img class="my-logo" src="assets/imgs/bootstrap.png" alt="Bootstrap Logo">
                         </div>
                     </div>
                 </div>
@@ -92,7 +150,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2>About Me</h2>
+                    <h2 class="section-head">About Me</h2>
                     <hr>
                     <p>Born and raised in Boise, where I have started my Career in Software Development.
                         <br>I started with several online courses. Some teaching the basics of HTML and CSS, others included
