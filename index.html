@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">MACKENZIE LEE</a>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Mackenzie Lee</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,13 +40,13 @@
         </div>
     </nav>
     <header class="main-header text-center text-white d-flex">
-        <div class="container my-auto">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-10 mx-auto">
-                    <h1 class="text-uppercase">
-                        <strong>Software Developer</strong>
+                    <h1 class="text-uppercase text-center">
+                        <b>Software Developer</b>
                     </h1>
-                    <p>Whether you want to uncover the secrets of the universe, or you want to pursue a career in the 21st century,
+                    <p class="text-center">Whether you want to uncover the secrets of the universe, or you want to pursue a career in the 21st century,
                         basic computer programming is an essential skill to learn. - Stephen Hawking</p>
                     <hr>
                 </div>
@@ -56,17 +56,18 @@
             </div>
         </div>
     </header>
-    <section id="about">
+    <section id="about" class="bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2 class="section-head">About Me</h2>
+                    <h2 class="section-head text-center">About Me</h2>
                     <hr>
-                    <p>Born and raised in Boise, where I have started my Career in Software Development.
+                    <p class="text-center">Born and raised in Boise, where I have started my Career in Software Development.
                         <br>I started with several online courses. Some teaching the basics of HTML and CSS, others included
                         Developing mobile apps for iOS utilizing Swift. When I knew developing was something I was very passionate
                         about I further investaged my options for education, and decided Boise CodeWorks would be my best
-                        choice. My time at Boise CodeWorks has furthered my love and passion for developing. I have been
+                        choice. My time at Boise CodeWorks has furthered my love and passion for developing more than I could've
+                        imagined. I have been
                         <br>
                     </p>
                 </div>
@@ -77,7 +78,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="section-head">My Languages & Projects</h2>
+                    <h2 class="section-head text-center">My Languages & Projects</h2>
                     <hr>
                 </div>
             </div>
@@ -158,6 +159,9 @@
                                 <div class="project-category text-faded">
                                     Kanban
                                 </div>
+                                <div class="project-name">
+                                    Developed using Vue.js, HTML, CSS, Node.js, Axios, and Express.
+                                </div>
                             </div>
                         </div>
                     </a>
@@ -169,6 +173,9 @@
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
                                     MeetMe@
+                                </div>
+                                <div class="project-name">
+                                    Location based website that utilizes several API's.
                                 </div>
                             </div>
                         </div>
@@ -182,6 +189,9 @@
                                 <div class="project-category text-faded">
                                     GranolaGram
                                 </div>
+                                <div class="project-name">
+                                    Social Media Website devoped with Vue.js, HTML, CSS, Axios, Node.js, Bcrypts.js, and Express.
+                                </div>
                             </div>
                         </div>
                     </a>
@@ -194,6 +204,9 @@
                                 <div class="project-category text-faded">
                                     Rick and Morty
                                 </div>
+                                <div class="project-name">
+                                    Slap Game using JavaScript, HTML, and CSS.
+                                </div>
                             </div>
                         </div>
                     </a>
@@ -205,6 +218,24 @@
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
                                     Music Playlists
+                                </div>
+                                <div class="project-name">
+                                    Playlist Organizer utilizing API's, and developed using Vue.js, Axios, HTML, CSS, Node.js, and Express.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" target="_blank" href="https://kenzierlee.github.io/inspire/">
+                        <img class="img-fluid" src="assets/imgs/Inspire.png" alt="Inspire">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Inspire
+                                </div>
+                                <div class="project-name">
+                                    Home Screen made to inspire calling multiple API's, and returning all the information you need to start your day!
                                 </div>
                             </div>
                         </div>
@@ -245,6 +276,16 @@
         </div>
     </section>
 
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="vendor/js/template.js"></script>
 </body>
 
 </html>
