@@ -1,6 +1,10 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+#portfolio{
+    justify-content: center;
+    align-content: center;
+}
 header.main-header {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
